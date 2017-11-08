@@ -1,16 +1,3 @@
-
-ther with vi compatibility
-set nocompatible
-
-" enable syntax highlighting
-syntax enable
-
-" Vundle
-filetype on " without this vim emits a zero exit status, later, because of :ft off
-filetype off
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-
 " install Vundle bundles
 if filereadable(expand("~/.vimrc.bundles"))
   source ~/.vimrc.bundles
