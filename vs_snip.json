@@ -1,0 +1,122 @@
+{
+"Console Log": {
+	"prefix": "clg",
+	"body": [
+		"console.log($0)"
+	],
+	"description": "Console Log Shortcut"
+	},
+
+"This Props": {
+	"prefix": "tp",
+	"body": [
+		"this.props.$0"
+	],
+	"description": "this.props Shortcut"
+	},
+
+	"What is this Props": {
+		"prefix": "what",
+		"body": [
+			"console.log(this.props$0, 'what is this?')"
+		],
+		"description": "console.log props"
+		},
+
+"PropTypes Function": {
+		"prefix": "ptf",
+		"body": [
+			"PropTypes.func.isRequired"
+		],
+		"description": "PropTypes Function Shortcut"
+		},
+
+"PropTypes Object": {
+		"prefix": "pto",
+		"body": [
+			"PropTypes.object.isRequired"
+		],
+		"description": "PropTypes Object Shortcut"
+		},
+
+"PropTypes String": {
+		"prefix": "pts",
+		"body": [
+			"PropTypes.string.isRequired"
+		],
+		"description": "PropTypes String Shortcut"
+		},
+
+"PropTypes Boolean": {
+		"prefix": "ptb",
+		"body": [
+			"PropTypes.bool.isRequired"
+		],
+		"description": "PropTypes Boolean Shortcut"
+		},
+
+"Style Object": {
+		"prefix": "sty",
+		"body": [
+			"style={{$0}}"
+		],
+		"description": "React Inline Style"
+		},
+
+"Import React": {
+	"prefix": "ir",
+	"body": [
+		"import React from 'react'"
+	],
+	"description": "Import React"
+},
+
+"Import React Component": {
+	"prefix": "irc",
+	"body": [
+		"import React, {Component} from 'react'"
+	],
+	"description": "Import React and Component"
+},
+
+"Import PropTypes": {
+	"prefix": "ip",
+	"body": [
+		"import PropTypes from 'prop-types'"
+	],
+	"description": "Import PropTypes"
+},
+
+"Req Res Utils sendJson": {
+	"prefix": "rjson",
+	"body": [
+		"(req, res) => utils.sendJSON(res, $0)"
+	],
+	"description": "req res sendJSON"
+},
+
+"Bootstrap col-12": {
+	"prefix": "col12",
+	"body": [
+		"'col-lg-12 col-md-12 col-sm-12'"
+	],
+	"description": "bootstrap column-12"
+},
+
+"Bootstrap col-6": {
+	"prefix": "col6",
+	"body": [
+		"'col-lg-6 col-md-6 col-sm-6'"
+	],
+	"description": "bootstrap column-6"
+},
+
+"Bootstrap col-3": {
+	"prefix": "col3",
+	"body": [
+		"'col-lg-3 col-md-3 col-sm-3'"
+	],
+	"description": "bootstrap column-3"
+}
+
+}
